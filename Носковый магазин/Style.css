@@ -1,0 +1,168 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.header {
+    background-color: rgb(165, 235, 165);
+    height: 150px;
+    background-image: url(img/48_stereopicture.jpg);
+    background-repeat: repeat;
+    background-position: left;
+}
+.content {
+    background-color:rgb(216, 245, 216);
+    height: auto;
+}
+.footer {
+    height: 30px;
+    background-color: rgb(85, 252, 107);
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    outline: none;
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+h1 {
+    color: rgb(24, 82, 29);
+    font: bold 40px courier;
+    margin-bottom: 5px;
+}
+body {
+    background-color: #f8f8f8;
+}
+.menu {
+    text-align: right;
+}
+.menu li {   
+    font: italic bold 20px courier;
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+}
+.menu li a {
+    color:green;
+}
+.menu li a:hover{
+    color:darkseagreen;
+}
+.menu li a:active{
+    color:steelblue;
+}
+h3 {
+    background-color: #eaeaea;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.short {    
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.detailed {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.char {
+   border: 3px solid lightgreen;
+   color:darkgreen;
+   text-align: center;
+   text-decoration: underline;
+   list-style-image: url(img/перчик.png);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+}
+.linen p::first-letter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:darkgreen;
+}
+.connect li input {
+    height: 7mm;
+    width: 35%;
+    color:darkgreen;
+    background-color:rgb(204, 241, 204);
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.connect li input {
+    text-transform: capitalize;
+}
+#email input:focus {
+    color:darkmagenta;
+    background-color:hotpink;
+}
+.catalogue li {
+    font: italic bold 20px courier;
+    list-style-type: none;
+    display: inline-block;
+    width: 200px;
+}
+.catalogue li a:hover{
+    color:lime;
+}
+.catalogue li a:active{
+    color:steelblue;
+}
+.catalogue li a {
+    color:rgb(24, 202, 24);
+    height: 200px;
+    width: 400px;
+}
+table {
+    border: 2px solid darkgreen;
+    width: 100%;
+    padding: 20px;
+    border-collapse: collapse;
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid darkgreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color:forestgreen;
+}
+img {
+    outline: solid rgb(38, 155, 38) 2px;
+}
+img:hover {
+    outline: none;
+}
+.pic {
+    float: left;
+    margin-right: 20px;
+}
+.descript {
+    height: 200px; 
+}
+.descript button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.descript button:hover {
+    background-color:violet;
+    color:darkgreen;
+}
+.descript button:active {
+    background-color:violet;
+    color:darkgreen;
+    font-size: 20px;
+    border: solid darkgreen 2px;
+}
